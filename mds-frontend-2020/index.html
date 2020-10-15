@@ -4,12 +4,52 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio | Noëlla PENNANECH</title>
+    <link href="style.css" rel="stylesheet">
+    
+    <style>
+        #nav {
+            margin: 2em;
+        }
+
+        #nav li {
+            display: inline;
+            list-style: none;
+        }
+
+        h1 {
+            font-family: Fino Sans;
+            font-size: 3.5rem;
+        }
+
+        .grand_titre {
+            text-align: center;
+            border: solid;
+        }
+
+        .statut {
+            color: #A6287A;
+            font-size: 0.7em;
+            font-family: Parkside Light;
+        }
+
+        .nom_prenom {
+            font-family: Allumi;
+        }
+
+        .MDS_Nantes {
+            font-family: Helvetica;
+            font-size: 1.6em;
+        }
+
+        .photographie {
+            margin-top: 2em;
+        }
+    </style>
 </head>
 
 <body>
-
     <nav>
-        <ul>
+        <ul id="nav">
             <li><a href="Accueil">Accueil</a></li>
             <li><a href="A propos">A propos</a></li>
             <li><a href="Photographie">Photographie</a></li>
@@ -18,33 +58,35 @@
         </ul>
     </nav>
 
-    <header>
-        <h1>PORTFOLIO | Noëlla Pennanech</h1>
-        <h2>Etudiante en Bachelor 3 Webmarketing et Social Media</h2>
-        <p>MyDigitalSchool - Nantes</p>
-        <img src="photographie.jpg" width="400px">
-    </header>
+    <main>
+        <header>
+            <div class="grand_titre">
+                <h1>PORTFOLIO | <span class="nom_prenom">Noëlla Pennanech</span>
+                    <br><span class="statut">Webmarketing et Social Media</span>
+                </h1>
+                <p class="MDS_Nantes">MyDigitalSchool - Nantes</p>
+            </div>
+            <img class="photographie" src="images/photographie.jpg" alt="photographie" width="500px">
+        </header>
 
-    <section>
-        <h3>Présentation</h3>
-        <p>Après l'obtention de mon Baccalauréat STMG, j'ai réalisé une formation en DUT MMI qui m'a permis de développer mes connaissances dans divers domaines. En effet, cette formation polyvalente m'a permis d'acquérir de nouvelles compétences en réalisant de nombreux projets, que ce soit dans le domaine de la communication, l'infographie ou encore l'audiovisuel.</p>
+        <section>
+            <h2>Qui suis-je ?</h2>
+            <p>Après l'obtention de mon Baccalauréat STMG, j'ai réalisé une formation en DUT MMI qui m'a permis de développer mes connaissances dans divers domaines. En effet, cette formation polyvalente m'a permis d'acquérir de nouvelles compétences en réalisant de nombreux projets, que ce soit dans le domaine de la communication, l'infographie ou encore l'audiovisuel.</p>
 
-        <br>
-        <p>Lors de ma deuxième année d'étude, la réalisation d'un stage alterné sur une période de 6 mois a  renforcé en moi ma prise d'initiative, mon autonomie et ma confiance en moi. </p>
-        <br>
+            <p>Lors de ma deuxième année d'étude, la réalisation d'un stage alterné sur une période de 6 mois a renforcé en moi ma prise d'initiative, mon autonomie et ma confiance en moi. </p>
+            <br>
 
-        <p>En découvrir davantage...</p>
+            <p>En découvrir davantage...</p>
 
-    </section>
+        </section>
 
+    </main>
 
     <footer>
-        <img src="facebook-icon-pink-251943-free-icons-library-pink-facebook-png-512_512.jpg" width="50px">
-        <img src="6570100_thumb.png" width="40px">
-        <img src="linkedin-icon-12-256.png" width="45px">
+        <img src="images/facebook-icon-pink-251943-free-icons-library-pink-facebook-png-512_512.jpg" alt="logo facebook" width="50px">
+        <img src="images/instagram-logo-copy.png" alt="logo instagram" width="50px">
+        <img src="images/linkedin-icon-12-256.png" alt="logo linkedin" width="44px">
 
     </footer>
 
-</body>
-
-</html>
+</body></html>
