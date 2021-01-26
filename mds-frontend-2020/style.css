@@ -1,0 +1,588 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#logo {
+    margin-top: 1em;
+    width: 250px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -4em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-right: 3em;
+    justify-content: space-between;
+    font-family: "Segoe UI Emoji", Regular;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav a {
+    font-weight: bolder;
+    font-size: 22px;
+    color: #adbde3;
+}
+
+.portfolionoella {
+    background-image: url(138991431_836181516941820_3782423402472776126_n.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1.5em;
+    padding: 4em;
+
+}
+
+h1 {
+    font-family: "Fino Sans";
+    font-weight: bold;
+    font-size: 75px;
+    text-align: center;
+    color: white;
+}
+
+@font-face {
+    font-family: "Amsterdam";
+    src: url("fonts/amsterdam-four-ttf.ttf");
+}
+
+h2 {
+    font-family: "Amsterdam";
+    text-align: center;
+    color: #fbdedb;
+    font-size: 100px;
+    font-weight: 100;
+    margin-top: -0.75em;
+}
+
+#apropos {
+    position: relative;
+}
+
+h3 {
+    font-family: "Fino Sans";
+    font-weight: 300;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.quisuisje {
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 0.1em;
+}
+
+#trait {
+    margin: 0 auto;
+    border-top: 6px solid #adbde3;
+    width: 100px;
+}
+
+.rect1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    margin-top: -34em;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    height: 800px;
+}
+
+.presentation {
+    margin-left: 14em;
+    margin-right: 3em;
+
+}
+
+.prenomage {
+    font-family: "Amsterdam";
+    font-size: 48px;
+    font-weight: 200;
+}
+
+.etudiante {
+    margin-top: -63px;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.mds {
+    margin-top: -40px;
+    font-size: 25px;
+    color: #db94a0;
+
+}
+
+.introduction {
+    text-align: justify;
+    font-size: 13px;
+    text-indent: 2em;
+}
+
+p {
+    font-family: "Segoe UI Emoji", Regular;
+    font-size: 14.5px;
+    text-indent: 2em;
+}
+
+.polaroid a {
+    position: absolute;
+    left: 6.8em;
+    bottom: 2em;
+    transform: rotate(6deg);
+    font-family: "Fino Sans";
+    font-size: 25px;
+    font-weight: 600;
+    color: #db94a0;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+}
+
+.polaroid {
+    position: relative;
+    margin-right: 7em;
+    margin-top: 5em;
+}
+
+.projets {
+    margin-top: 2em;
+    margin-left: 1em;
+    font-size: 45px;
+}
+
+#trait2 {
+    margin-left: 2.75em;
+    margin-top: -2.1em;
+    margin-bottom: 1.5em;
+    border-top: 6px solid #adbde3;
+    width: 160px;
+}
+
+.descriptionproj {
+
+    text-align: center;
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-top: -0.5em;
+    margin-bottom: 2em;
+    text-indent: 2em;
+}
+
+.presentation_projet {
+    font-size: 18px;
+}
+
+.titreprojet {
+    text-align: center;
+
+}
+
+.titremauve {
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: -1em;
+    color: #c7c3e3;
+}
+
+.descriptiondut {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -1.8em;
+    margin-left: 6.6em;
+    margin-right: 6.6em;
+}
+
+h5 {
+    font-family: "Fino Sans";
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.carre, .carre_bis {
+    position: relative;
+}
+
+.carre {
+    width: 425px;
+    height: 565px;
+}
+
+.carre_bis{
+    margin-top:2em;
+}
+
+#projets {
+    background-image: url(4860404.jpg);
+    padding-top: 0.5em;
+}
+
+.seulsurmars {
+    position: absolute;
+    margin-top: 6.8em;
+    margin-left: -19.8em;
+}
+
+.titredut {
+    display: flex;
+    justify-content: center;
+    font-family: "Fino Sans";
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: -6.7em;
+}
+
+.soustitredut {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-family: "Segoe UI Emoji", Regular;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: -2.8em;
+}
+
+.photoautoportrait {
+    position: absolute;
+    width: 125px;
+    margin-top: 6.2em;
+    margin-left: -12.3em;
+}
+
+.autoportrait {
+    position: absolute;
+    width: 160px;
+    margin-top: 12.6em;
+    margin-left: -21.3em;
+}
+
+.mobydick {
+    position: absolute;
+    margin-top: 11em;
+    margin-left: -22.75em;
+    width: 307px;
+}
+
+.titrekomkom {
+    display: flex;
+    justify-content: center;
+    font-family: "Fino Sans";
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: -7.2em;
+}
+
+.soustitrekomkom {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-family: "Segoe UI Emoji", Regular;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: -3em;
+}
+
+.titreaboreal {
+    display: flex;
+    justify-content: center;
+    font-family: "Fino Sans";
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: -6em;
+}
+
+.soustitreaboreal {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-family: "Segoe UI Emoji", Regular;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: -3em;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(7; 1fr);
+    grid-template-rows: repeat(4, 25vh);
+    grid-gap: 3em;
+}
+
+.art1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.art1 .seulsurmars:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.art2 {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+}
+
+.art2 .autoportrait:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.art2 .photoautoportrait:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.art3 {
+    grid-column: 5 / 7;
+    grid-row: 1 / 2;
+}
+
+.art3 .mobydick:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.art4 {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+
+.art4 .carre {
+    margin-top: 8em;
+}
+
+.art5 {
+    grid-column: 4 / 6;
+    grid-row: 3 / 4;
+}
+
+.art5 .carre {
+    margin-top: 8em;
+}
+
+.carre2 {
+    width: 600px;
+}
+
+.agencekomkom {
+    margin-top: 23em;
+}
+
+.artkomkom {
+    display: grid;
+    grid-template-columns: repeat(3; 1fr);
+    grid-template-rows: repeat(4, 25vh);
+    grid-gap: 10em;
+}
+
+.artkomkom1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.artkomkom2 {
+    margin-top: 12em;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.artkomkom3 {
+    margin-top: 12em;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.agenceaboreal {
+    margin-top: 15em;
+}
+
+.artaboreal {
+    display: grid;
+    grid-template-columns: repeat(4; 1fr);
+    grid-template-rows: repeat(3, 33vh);
+    grid-gap: 5.3em;
+}
+
+.artaboreal1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.artaboreal2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.artaboreal3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.artaboreal4 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.artaboreal5 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.artaboreal6 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.carre3 {
+    width: 400px;
+}
+
+.photographie {
+    text-align: right;
+    margin-right: 0.5em;
+    font-size: 45px;
+}
+
+.sectionphoto {
+    margin-top: -2em;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.noestla {
+    font-family: "Fino Sans", Regular;
+    font-size: 55px;
+}
+
+.st_noestla {
+    margin-top: -2em;
+}
+
+.paraphoto p {
+    text-align: justify;
+    font-size: 16px;
+    margin-left: 2em;
+    margin-right: 4em;
+}
+
+.para1photo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.mona1 {}
+
+.mona2 {}
+
+.galerie {
+    font-family: "Amsterdam";
+    font-size: 40px;
+    margin-left: 7.5em;
+}
+
+.voirgalerie {
+    margin-top: -14em;
+}
+
+.contact {
+    position: absolute;
+    margin-top: 7em;
+    margin-left: 12em;
+    font-size: 45px;
+}
+
+.rectcontact {
+    position: relative;
+    width: 80%;
+    margin-top: -18em;
+    margin-left: 8em;
+    margin-bottom: -10em;
+}
+
+.formulaire {
+    position: absolute;
+    margin-top: -35em;
+    margin-left: 27em;
+    font-family: "Segoe UI Emoji", Regular;
+    font-size: 20px;
+}
+
+footer {
+    background: linear-gradient(to right, #f1d4e8, #c7c3e3, #adbde3);
+    margin-top: -16em;
+}
+
+.footergrid {
+    display: flex;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4; 1fr);
+    grid-template-rows: repeat(3);
+    padding-top: 2em;
+}
+
+.logofooter {
+    margin-left: -3em;
+    margin-top: 2em;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.footerportfolio {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-family: "Fino Sans";
+    font-size: 27px;
+    color: white;
+    margin-top: -0.2em;
+}
+
+.footernoella {
+    grid-column: 2 / 3;
+    grid-row: 1 / "3";
+    font-family: "Amsterdam";
+    font-size: 40px;
+    color: white;
+    margin-top: -3em;
+    margin-left: -1.5em;
+}
+
+
+.logoinsta {}
+
+.logolinkedin {}
+
+.reseauxsociaux {
+    margin-top: 1em;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
