@@ -4,17 +4,27 @@ html {
 
 #logo {
     margin-top: 1em;
-    width: 250px;
+    width: 230px;
+}
+
+#accueil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
-    margin-top: -4em;
 }
 
 ul {
     list-style: none;
+}
+
+.couleurlien li a:hover {
+    color: #db94a0;
+    transition-duration: 0.3s;
 }
 
 li {
@@ -22,6 +32,7 @@ li {
     margin-right: 3em;
     justify-content: space-between;
     font-family: "Segoe UI Emoji", Regular;
+    font-size: 24px;
 }
 
 a:link {
@@ -93,8 +104,8 @@ h3 {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top:-2em;
     position: absolute;
-    margin-top: -34em;
 }
 
 .intro {
@@ -106,7 +117,6 @@ h3 {
 .presentation {
     margin-left: 14em;
     margin-right: 3em;
-
 }
 
 .prenomage {
@@ -125,12 +135,11 @@ h3 {
     margin-top: -40px;
     font-size: 25px;
     color: #db94a0;
-
 }
 
 .introduction {
     text-align: justify;
-    font-size: 13px;
+    font-size: 16px;
     text-indent: 2em;
 }
 
@@ -160,45 +169,81 @@ p {
 }
 
 .projets {
-    margin-top: 2em;
-    margin-left: 1em;
-    font-size: 45px;
+    text-align: center;
+    font-size: 55px;
 }
 
 #trait2 {
-    margin-left: 2.75em;
-    margin-top: -2.1em;
-    margin-bottom: 1.5em;
+    margin: 0 auto;
+    margin-top: -2.8em;
+    margin-bottom: 3em;
     border-top: 6px solid #adbde3;
-    width: 160px;
+    width: 105px;
 }
 
-.descriptionproj {
-
-    text-align: center;
-    margin-left: 7em;
-    margin-right: 7em;
-    margin-top: -0.5em;
-    margin-bottom: 2em;
-    text-indent: 2em;
-}
-
-.presentation_projet {
-    font-size: 18px;
+.zoneprojets {
+    background-color: #f8ecf0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 3em;
 }
 
 .titreprojet {
     text-align: center;
-
 }
 
 .titremauve {
     text-align: center;
     font-style: italic;
-    font-size: 35px;
-    font-weight: 300;
+    font-size: 37px;
+    font-weight: 350;
     margin-top: -1em;
     color: #c7c3e3;
+}
+
+.illustrator {
+    width: 5%;
+    margin-right: 1em;
+}
+
+.illustrator2 {
+    width: 5%;
+    margin-right: 1em;
+}
+
+.indesign {
+    width: 5%;
+    margin-right: 1em;
+}
+
+.indesign2 {
+    width: 5%;
+    margin-right: 1em;
+}
+
+.photoshop {
+    width: 5%;
+    margin-right: 1em;
+
+}
+
+.premierepro {
+    width: 5%;
+}
+
+.logosdut {
+    margin-top: -1.5em;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .descriptiondut {
@@ -207,8 +252,8 @@ p {
     text-align: center;
     font-size: 15px;
     margin-top: -1.8em;
-    margin-left: 6.6em;
-    margin-right: 6.6em;
+    margin-left: 17em;
+    margin-right: 17em;
 }
 
 h5 {
@@ -217,8 +262,9 @@ h5 {
     font-size: 28px;
 }
 
-.carre, .carre_bis {
-    position: relative;
+.carre_dut {
+    width: 640px;
+    height: 870px;
 }
 
 .carre {
@@ -226,12 +272,9 @@ h5 {
     height: 565px;
 }
 
-.carre_bis{
-    margin-top:2em;
-}
-
 #projets {
-    background-image: url(4860404.jpg);
+    margin-top: 4em;
+    background-color: #FFFAFA;
     padding-top: 0.5em;
 }
 
@@ -260,6 +303,59 @@ h5 {
     margin-top: -2.8em;
 }
 
+.titredut2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Fino Sans";
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: -13em;
+    margin-left: -1.8em;
+}
+
+.soustitredut2 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-family: "Segoe UI Emoji", Regular;
+    font-size: 1em;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-align: center;
+    margin-top: -2.8em;
+    margin-left: 6em;
+    margin-right: 10em;
+    margin-bottom: 1em;
+}
+
+.maquettetds1 {
+    width: 45%;
+    position: absolute;
+    margin-top: -35em;
+    margin-left: 2.5em;
+}
+
+.maquettetds2 {
+    width: 35%;
+    position: absolute;
+    margin-top: -36em;
+    margin-left: 19.5em;
+}
+
+.bouton_bc {
+    margin-left: 16.4em;
+    padding: 0.8em;
+    color: #FFFAFB;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    font-family: "Fino Sans";
+    background-color: #db94a0;
+    border-radius: 0.5em;
+    border-style: none;
+}
+
 .photoautoportrait {
     position: absolute;
     width: 125px;
@@ -281,9 +377,65 @@ h5 {
     width: 307px;
 }
 
-.titrekomkom {
+.agorapulse {
+    width: 5%;
+    margin-right: 1em;
+}
+
+.photoshop2 {
+    width: 5%;
+    margin-right: 1em;
+
+}
+
+.canva {
+    width: 5%;
+    margin-right: 1em;
+}
+
+.canva2 {
+    width: 5%;
+    margin-right: 1em;
+}
+
+.asana {
+    width: 5%;
+    margin-right: 1em;
+
+}
+
+.powerpoint {
+    width: 5%;
+    margin-right: 1em;
+}
+
+.powerpoint2 {
+    width: 5%;
+    margin-right: 1em;
+}
+
+
+.onedrive {
+    width: 5%;
+}
+
+.wix {
+    width: 5%;
+    margin-right: 1em;
+}
+
+.logoskomkom {
+    margin-top: -1.5em;
+    margin-bottom: 2em;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.titrekomkom {
+    text-align: center;
     font-family: "Fino Sans";
     font-size: 22px;
     font-weight: 300;
@@ -291,13 +443,47 @@ h5 {
 }
 
 .soustitrekomkom {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-style: italic;
     font-family: "Segoe UI Emoji", Regular;
     font-size: 1em;
     font-weight: 400;
     margin-top: -3em;
+}
+
+.para1komkom p {
+    margin-top: 2em;
+    font-size: 16.5px;
+    text-align: justify;
+}
+
+.voirpluskomkom {
+    margin-left: 14em;
+    margin-top: 0.3em;
+    padding: 0.8em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    color: #FFFAFB;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-family: "Fino Sans";
+    background-color: #db94a0;
+    border-radius: 0.5em;
+    border-style: none;
+}
+
+.voirpluskomkom2 {
+    margin-left: 19em;
+    padding: 0.8em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    color: #FFFAFB;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-family: "Fino Sans";
+    background-color: #db94a0;
+    border-radius: 0.5em;
+    border-style: none;
 }
 
 .titreaboreal {
@@ -305,8 +491,9 @@ h5 {
     justify-content: center;
     font-family: "Fino Sans";
     font-size: 22px;
+    text-align: center;
     font-weight: 300;
-    margin-top: -6em;
+    margin-top: -6.8em;
 }
 
 .soustitreaboreal {
@@ -314,21 +501,29 @@ h5 {
     justify-content: center;
     font-style: italic;
     font-family: "Segoe UI Emoji", Regular;
+    text-align: center;
     font-size: 1em;
     font-weight: 400;
     margin-top: -3em;
 }
 
-
 .grid1 {
     display: grid;
-    grid-template-columns: repeat(7; 1fr);
+    grid-template-columns: repeat(10; 1fr);
     grid-template-rows: repeat(4, 25vh);
-    grid-gap: 3em;
+    grid-gap: 2em;
+}
+
+.grid2dut {
+    margin-top: -15em;
+    display: grid;
+    grid-template-columns: repeat(10; 1fr);
+    grid-template-rows: repeat(1, 100vh);
+    grid-gap: 1em;
 }
 
 .art1 {
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
 
@@ -339,7 +534,7 @@ h5 {
 }
 
 .art2 {
-    grid-column: 3 / 5;
+    grid-column: 3 / 4;
     grid-row: 1 / 2;
 }
 
@@ -356,7 +551,7 @@ h5 {
 }
 
 .art3 {
-    grid-column: 5 / 7;
+    grid-column: 5 / 6;
     grid-row: 1 / 2;
 }
 
@@ -367,64 +562,223 @@ h5 {
 }
 
 .art4 {
-    grid-column: 2 / 4;
-    grid-row: 3 / 4;
+    position: relative;
+    grid-column: 6 / 7;
+    grid-row: 1;
 }
 
-.art4 .carre {
-    margin-top: 8em;
+.art4 .instabarbara:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.instabarbara {
+    width: 40%;
+    position: absolute;
+    margin-top: -33.8em;
+    margin-left: 11.5em;
 }
 
 .art5 {
-    grid-column: 4 / 6;
-    grid-row: 3 / 4;
+    position: relative;
+    grid-column: 8 / 10;
+    grid-row: 1;
 }
 
-.art5 .carre {
-    margin-top: 8em;
+.art5 .maquettetds1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.art5 .maquettetds2:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: .3s;
 }
 
 .carre2 {
-    width: 600px;
+    position: relative;
+    width: 650px;
 }
 
 .agencekomkom {
-    margin-top: 23em;
+    margin-top: 8em;
+    background-color: #f8ecf0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-left: 7em;
+    margin-right: 7em;
+    border-radius: 3em;
 }
 
 .artkomkom {
     display: grid;
     grid-template-columns: repeat(3; 1fr);
-    grid-template-rows: repeat(4, 25vh);
-    grid-gap: 10em;
+    grid-template-rows: repeat(5, 20vh);
+    grid-gap: 9em;
 }
 
 .artkomkom1 {
+    position: relative;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    margin-left: 4em;
+}
+
+.para1komkom {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-top: 4em;
+    margin-right: 6em;
+    margin-left: -2em;
+}
+
+.fetemusique {
+    position: absolute;
+    margin-left: 3.9em;
+    margin-top: -22.5em;
+    width: 30%;
+}
+
+.conseilexpert {
+    position: absolute;
+    margin-left: 24.8em;
+    margin-top: -20em;
+    width: 28%;
+}
+
+.avisclient {
+    position: absolute;
+    margin-left: 15.5em;
+    margin-top: -27em;
+    width: 33%;
 }
 
 .artkomkom2 {
-    margin-top: 12em;
+    position: relative;
+    margin-top: 16em;
+    margin-left: -6em;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
 
-.artkomkom3 {
-    margin-top: 12em;
+.para2komkom {
+    text-align: justify;
+    margin-right: 3em;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
 }
 
+.storycuisineplus {
+    position: absolute;
+    margin-left: 4.5em;
+    margin-top: -26.3em;
+    width: 23%;
+}
+
+.storyatol {
+    position: absolute;
+    margin-left: 15em;
+    margin-top: -27.6em;
+    width: 27%;
+}
+
+.storyavisclient {
+    position: absolute;
+    margin-left: 27.3em;
+    margin-top: -24em;
+    width: 23%;
+}
+
+.paragraphe1komkom {
+    margin-top: 8em;
+    margin-right: 2.5em;
+    margin-left: 6em;
+    font-size: 16.5px;
+    text-align: justify;
+}
+
+.paragraphe2komkom {
+    margin-top: 2em;
+    margin-right: 2.5em;
+    margin-left: 6em;
+    font-size: 16.5px;
+    text-align: justify;
+}
+
+.artkomkom3 {
+    position: relative;
+    margin-top: 34em;
+    margin-left: 4em;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.para3komkom {
+    margin-top: 25em;
+    margin-right: 6em;
+    margin-left: -2em;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.para3komkom p {
+    margin-top: -2em;
+    font-size: 16.5px;
+    text-align: justify;
+}
+
+.pucejeuxconcours li{
+    list-style-type:disc;
+    font-size: 16.5px;
+    text-align: justify;
+}
+
+.postmontpellier {
+    position: absolute;
+    margin-left: 4.5em;
+    margin-top: -24em;
+    width: 45%;
+}
+
+.storymontpellier {
+    position: absolute;
+    margin-left: 25em;
+    margin-top: -26.8em;
+    width: 26%;
+}
+
 .agenceaboreal {
-    margin-top: 15em;
+    margin-top: 29em;
+    background-color: #f8ecf0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-left: 7em;
+    margin-right: 7em;
+    border-radius: 3em;
+}
+
+.logosaboreal {
+    margin-top: -1.5em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .artaboreal {
     display: grid;
-    grid-template-columns: repeat(4; 1fr);
-    grid-template-rows: repeat(3, 33vh);
-    grid-gap: 5.3em;
+    grid-template-columns: repeat(7; 1fr);
+    grid-template-rows: repeat(6, 16vh);
+    grid-gap: 5em;
 }
 
 .artaboreal1 {
@@ -444,32 +798,96 @@ h5 {
 
 .artaboreal4 {
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
+    margin-top: 7em;
 }
 
 .artaboreal5 {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
+    margin-top: 7em;
+
 }
 
 .artaboreal6 {
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
+    margin-top: 7em;
+
 }
 
 .carre3 {
-    width: 400px;
+    position: relative;
+    width: 450px;
+    height: 513px;
+}
+
+.logoaboreal {
+    position: absolute;
+    width: 23%;
+    margin-top: -24.5em;
+    margin-left: 3.3em;
+}
+
+.cdvedith1 {
+    position: absolute;
+    width: 13%;
+    margin-top: 8em;
+    margin-left: -24.8em;
+}
+
+.cdvedith2 {
+    position: absolute;
+    width: 13%;
+    margin-top: 12em;
+    margin-left: -14.7em;
+}
+
+.video {
+    position: absolute;
+    width: 18%;
+    margin-left: -22.5em;
+    margin-top: 5.3em;
+}
+
+.joyeuxnoel {
+    position: absolute;
+    width: 15%;
+    margin-top: 6.7em;
+    margin-left: -21em;
+}
+
+.afficheavisclient {
+    position: absolute;
+    width: 12.8%;
+    margin-left: -20em;
+    margin-top: 5em;
+}
+
+.sitewix {
+    position: absolute;
+    width: 22%;
+    margin-top: 10em;
+    margin-left: -24.3em;
 }
 
 .photographie {
-    text-align: right;
-    margin-right: 0.5em;
-    font-size: 45px;
+    text-align: center;
+    font-size: 55px;
+    margin: 0;
+    margin-top: 1em;
+}
+
+#trait3 {
+    margin: 0 auto;
+    margin-top: 1em;
+    border-top: 6px solid #adbde3;
+    width: 110px;
 }
 
 .sectionphoto {
     margin-top: -2em;
-    margin-left: 2em;
+    margin-left: 5em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -497,92 +915,113 @@ h5 {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-start;
+    margin-right: 3em;
+    margin-left: 3em;
 }
-
-.mona1 {}
-
-.mona2 {}
 
 .galerie {
     font-family: "Amsterdam";
-    font-size: 40px;
-    margin-left: 7.5em;
+    font-size: 45px;
+    margin-left: 8em;
 }
 
 .voirgalerie {
-    margin-top: -14em;
+    margin-top: -15em;
+}
+
+#contact {
+    margin-top: 10em;
+    background-color: #FFFAFA;
 }
 
 .contact {
     position: absolute;
-    margin-top: 7em;
-    margin-left: 12em;
-    font-size: 45px;
+    margin-left: 10.8em;
+    margin-top: 2.8em;
+    font-size: 55px;
 }
 
 .rectcontact {
     position: relative;
-    width: 80%;
-    margin-top: -18em;
-    margin-left: 8em;
-    margin-bottom: -10em;
+    width: 70%;
+    margin-left: 14em;
 }
 
 .formulaire {
     position: absolute;
-    margin-top: -35em;
-    margin-left: 27em;
+    margin-top: -23em;
+    margin-left: 30.5em;
     font-family: "Segoe UI Emoji", Regular;
     font-size: 20px;
 }
 
-footer {
-    background: linear-gradient(to right, #f1d4e8, #c7c3e3, #adbde3);
-    margin-top: -16em;
+.input{
+    border-style: none;
+    height: 3em;
+    width: 20em;
+    margin-bottom: 1em;
 }
 
-.footergrid {
+.textarea{
+    border-style: none;
+    width: 20em;
+    height: 6em;
+    resize: none;
+}
+
+.textarea::placeholder{
+    font-family: "Segoe UI Emoji", Regular;
+}
+
+.footer {
+    background-color: #c7c3e3;
+    margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    display: grid;
-    grid-template-columns: repeat(4; 1fr);
-    grid-template-rows: repeat(3);
-    padding-top: 2em;
-}
-
-.logofooter {
-    margin-left: -3em;
-    margin-top: 2em;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-
-.footerportfolio {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    font-family: "Fino Sans";
-    font-size: 27px;
-    color: white;
-    margin-top: -0.2em;
+    align-items: center;
 }
 
 .footernoella {
-    grid-column: 2 / 3;
-    grid-row: 1 / "3";
     font-family: "Amsterdam";
-    font-size: 40px;
+    font-size: 34px;
     color: white;
-    margin-top: -3em;
-    margin-left: -1.5em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -0.01em;
 }
 
+footer h5,
+footer p {
+    text-align: center;
+}
 
-.logoinsta {}
+.logoinsta {
+    width: 5.3%;
+    margin-bottom: 0.15em;
+}
 
-.logolinkedin {}
+.logolinkedin {
+    width: 6.3%;
+}
 
 .reseauxsociaux {
-    margin-top: 1em;
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
+    position: relative;
+    margin-top: 0.2em;
+    margin-left: 27em;
+    ;
+}
+
+.reseauxsociaux a {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.copyright {
+    margin: 0 auto;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-indent: 0;
 }
